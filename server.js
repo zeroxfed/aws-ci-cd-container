@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('testing');
+  res.send('testing ');
 });
 
 // Start the server only when running this file directly.
